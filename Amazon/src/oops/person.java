@@ -7,7 +7,9 @@ public class person {
 	public String getName() {
 		return name;
 	}
-	// setter
+
+
+// setter
 		public void setName(String newName) {
 			this.name=newName;
 			
