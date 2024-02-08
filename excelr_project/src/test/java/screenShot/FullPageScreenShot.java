@@ -17,11 +17,11 @@ public class FullPageScreenShot {
 		driver.get("https://google.com");
 		driver.manage().window().maximize();
 
-		// Full Page screenshot
-		
-		  TakesScreenshot ts=(TakesScreenshot)driver; File
-		  src=ts.getScreenshotAs(OutputType.FILE); File trg=new
-		  File(".\\Screenshot\\homepage.png"); FileUtils.copyFile(src, trg);
+//		// Full Page screenshot
+//		
+//		  TakesScreenshot ts=(TakesScreenshot)driver; File
+//		  src=ts.getScreenshotAs(OutputType.FILE); File trg=new
+//		  File(".\\Screenshot\\homepage.png"); FileUtils.copyFile(src, trg);
 		 
 
 		// Screenshot of portion/section of the page
