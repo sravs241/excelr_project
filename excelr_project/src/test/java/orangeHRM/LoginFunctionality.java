@@ -25,6 +25,7 @@ public class LoginFunctionality {
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		Assert.assertTrue(driver.findElement(By.xpath("(//img[@alt='client brand banner'])[1]")).isDisplayed());
 		Thread.sleep(3000);
+				
 		driver.quit();
 	
 	}
