@@ -43,7 +43,6 @@ public class LoginFunctionality {
 		
 		return data;
 		
-		
 	}
 
 }
