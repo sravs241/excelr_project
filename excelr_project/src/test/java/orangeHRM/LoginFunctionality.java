@@ -32,16 +32,24 @@ public class LoginFunctionality {
 	
 	@DataProvider(parallel=true)
 	public Object[][] LoginData(){
-		Object[][] data=new Object[3][2];
+		Object[][] data=new Object[6][2];
 		data[0][0]="Admin";
 		data[0][1]="admin123";
 		
-		data[1][0]="Admin";
-		data[1][1]="test123";
+		data[1][0]="Admin1";
+		data[1][1]="admin123";
 		
-		data[2][0]="admin";
-		data[2][1]="test";
+		data[2][0]="Admin";
+		data[2][1]="admi1n123";
 		
+		data[3][0]="Admi1n";
+		data[3][1]="admin1123";
+		
+		data[4][0]="Admi1n";
+		data[4][1]="admin123";
+		
+		data[5][0]="Ad1min";
+		data[5][1]="admin123";
 		return data;
 		}
 }
