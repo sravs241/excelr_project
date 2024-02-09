@@ -42,7 +42,5 @@ public class LoginFunctionality {
 		data[2][1]="test";
 		
 		return data;
-		
-	}
-
+		}
 }
