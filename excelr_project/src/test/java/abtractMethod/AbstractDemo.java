@@ -33,9 +33,10 @@ public class AbstractDemo
 		car c = new car();
 		c.start();
 		c.display();
-		
 		scooter s=new scooter();
 		s.start();
-		}
+	
 	}
+	
+}
 
